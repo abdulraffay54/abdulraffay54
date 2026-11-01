@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="64" viewBox="0 0 1100 64" role="img" aria-label="Let's Connect section header">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="64" rx="14" fill="#0b1220"/>
+  <rect x="0" y="0" width="6" height="64" rx="3" fill="url(#g)"/>
+  <text x="28" y="40" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f1f5f9">Let's Connect</text>
+  <text x="1072" y="40" text-anchor="end" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#64748b" letter-spacing="2">09</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="16" viewBox="0 0 1100 16" role="img" aria-label="Decorative animated gradient divider">
+  <defs>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="80%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#14b8a6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#e0f2fe" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="40" y="6" width="1020" height="4" rx="2" fill="url(#line)"/>
+  <rect x="-180" y="5" width="180" height="6" rx="3" fill="url(#shine)">
+    <animate attributeName="x" values="-180;1100" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>

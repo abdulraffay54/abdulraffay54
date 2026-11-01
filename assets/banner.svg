@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="340" viewBox="0 0 1100 340" role="img" aria-label="Abdul Rafay, Web Engineer, building high-fidelity web interfaces used to train and evaluate AI agents">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1224"/>
+      <stop offset="55%" stop-color="#111536"/>
+      <stop offset="100%" stop-color="#0a1f24"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#a5b4fc"/>
+    </linearGradient>
+    <clipPath id="card">
+      <rect x="0" y="0" width="1100" height="340" rx="24"/>
+    </clipPath>
+  </defs>
+  <style>
+    .chip { font-family: Segoe UI, Ubuntu, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #dbeafe; }
+    .fade { opacity: 0; animation: rise 0.9s ease forwards; }
+    .d1 { animation-delay: 0.15s; }
+    .d2 { animation-delay: 0.3s; }
+    .d3 { animation-delay: 0.45s; }
+    .d4 { animation-delay: 0.6s; }
+    .d5 { animation-delay: 0.75s; }
+    .d6 { animation-delay: 0.9s; }
+    .d7 { animation-delay: 1.05s; }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="1100" height="340" fill="url(#bg)"/>
+    <circle cx="980" cy="-20" r="180" fill="#3b82f6" opacity="0.18">
+      <animate attributeName="cy" values="-20;10;-20" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="80" cy="360" r="150" fill="#14b8a6" opacity="0.14">
+      <animate attributeName="cx" values="80;110;80" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="620" cy="80" r="90" fill="#8b5cf6" opacity="0.16">
+      <animate attributeName="r" values="90;110;90" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="0" y="0" width="1100" height="4" fill="url(#glow)"/>
+    <text x="56" y="78" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="15" fill="#67e8f9" letter-spacing="3">WEB ENGINEER &#183; PUNJAB, PAKISTAN</text>
+    <text x="56" y="142" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="48" font-weight="700" fill="url(#nameGrad)">Abdul Rafay</text>
+    <text x="56" y="186" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="18" fill="#cbd5e1">I build high-fidelity web interfaces used to train and evaluate AI agents.</text>
+
+    <g transform="translate(56,230)">
+      <g class="fade d1">
+        <rect width="86" height="34" rx="17" fill="#1e3a5f" stroke="#3b82f6"/>
+        <text x="43" y="22" text-anchor="middle" class="chip">React</text>
+      </g>
+    </g>
+    <g transform="translate(154,230)">
+      <g class="fade d2">
+        <rect width="96" height="34" rx="17" fill="#1e1b4b" stroke="#8b5cf6"/>
+        <text x="48" y="22" text-anchor="middle" class="chip">Next.js</text>
+      </g>
+    </g>
+    <g transform="translate(262,230)">
+      <g class="fade d3">
+        <rect width="118" height="34" rx="17" fill="#0f2a3a" stroke="#22d3ee"/>
+        <text x="59" y="22" text-anchor="middle" class="chip">JavaScript</text>
+      </g>
+    </g>
+    <g transform="translate(392,230)">
+      <g class="fade d4">
+        <rect width="92" height="34" rx="17" fill="#1e3a5f" stroke="#60a5fa"/>
+        <text x="46" y="22" text-anchor="middle" class="chip">Python</text>
+      </g>
+    </g>
+    <g transform="translate(496,230)">
+      <g class="fade d5">
+        <rect width="96" height="34" rx="17" fill="#1e1b4b" stroke="#a78bfa"/>
+        <text x="48" y="22" text-anchor="middle" class="chip">Django</text>
+      </g>
+    </g>
+    <g transform="translate(604,230)">
+      <g class="fade d6">
+        <rect width="86" height="34" rx="17" fill="#0f2a3a" stroke="#22d3ee"/>
+        <text x="43" y="22" text-anchor="middle" class="chip">Azure</text>
+      </g>
+    </g>
+    <g transform="translate(702,230)">
+      <g class="fade d7">
+        <rect width="92" height="34" rx="17" fill="#042f2e" stroke="#14b8a6"/>
+        <text x="46" y="22" text-anchor="middle" class="chip">SQLite</text>
+      </g>
+    </g>
+  </g>
+</svg>
